@@ -1,4 +1,6 @@
-<!DOCTYPE>
+<!DOCTYPE html>
+
+
 <html lang="eng"
 <head>
 <title>EAGLES MOVIE CINEMA</title>
@@ -19,10 +21,6 @@ body{
   text-decoration: none;
   }
   
-form {
-float: right;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -79,36 +77,33 @@ margin-right :auto;
 margin-left:auto;
 }
 header {
-color:whitesmoke;
-margin-top: 3em;
+color:white;
+text-align: center;
 }
 
 p {
 color: white;
 }
 
+
+footer {
+float: left;
+}
 </style>
 </head>
 
 <body>
  
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
-<div class="navbar">
-<a href="Payment.html" class="active">Buy Tickets</a>
+ <div class="navbar">
+<a href="Login.html" class="active">Buy Tickets</a>
 </div>
 
-<form class="image" action="movies threatre.html">
- <input type="text" placeholder="Search movies.." name="search">
- <button type="submit"><i class="fa fa-search"></i></button>
- </form>
- 
  <ul>
   <li><a href="index.html"><img src="C:\Users\cse21-107\OneDrive - Botswana Accountancy College\Documents\WMD\images\favicon.png" alt="HOME" width= "20px" height= "20px"></a><li>
-  <li><a href="movies theatre.html" class="active">Home</a></li>
+  <li><a href="movie theatre.html" class="active">Home</a></li>
   <li><a href="latest page.html" class="active">Latest</a></li>
   <li class="dropdown">
-  <a href="" class="dropbtn">Genre</a>
+  <a href="Action page.html" class="dropbtn">Genre</a>
   <div class="dropdown-content">
   <a href="Action page.html">Action Movies</a>
   <a href="horror page.html">Horror Movies</a>
@@ -118,36 +113,33 @@ color: white;
   <li><a href="Contact Us.html">Contact Us</a></li>
   <li><a href="FeedBack.html">FeedBack</a></li>
   </ul>
-
-
-<a href="index.html"><img src="C:\Users\cse21-107\OneDrive - Botswana Accountancy College\Documents\WMD\images\favicon.png" alt="HOME" width= "50px" height= "50px"></a>
-<p style="text-align:center;"><a href="movies theatre.html">EAGLES MOVIE CINEMA</a></p>
 <hr>
-</hr>
-<header>
-<h1>What is Eagles Movie Cinema?</h1>
-<p> Eagles Movie Cinema is a cinema which provides quality,certified movies and tv shows,.You can watch purchase a ticket online and come to our cinema! We provide number one movies and service in Botswana.
-It is a flexible website,it can be reached on smartphones and it is ad free.<br>With Eagles Movie Cinema all you need is a computer with access to internet connection and HTML browser and be able to buy tickets and see movies provided.There are no softwares or hardware required and the movies they are legally obtained copies from manufacturers.</br></p>
-
-<h2>ACCOUNT REQUIRED?</h2>
-<p>No account is required in order to watch our movies, this is to help people not to reveal their information.What one need is to buy a ticket and secure a spot in our cinema.</p>
-
-<h3> HD QUALITY?</h3>  
-<p> We provide high definition quality movies</p>
-
-<h4>CONTENT?</h4>
-<p>One may ask,will i be able to find the movie i want? We Eagles Movie Cinema we provide all movies published and we are one step ahead of other cinema's.Just search what movie you want and it will pop out.</p>
+ <header>
+<h1>PAYMENT METHOD</h1>
+</header>
  
-<h5>ADS EXPERIENCE?</h5>
-<p>Our website is ad free and one can strolling in it without having to deal with any ads popping out.</p> 
-    </header>
-	
-<p style="text-align:center;"><a href="movies theatre.html"> GO TO EAGLES MOVIE CINEMA</a></p>
+<center>
+<form action="Payment.html" style="color: white;">
+  <label  for="fname">Payer's name:</label><br>
+  <input type="text"  name="fname" value=" "><br>
+  <label for="Mtitle">Movie title:</label><br>
+  <input type="text" name="Mtitle" value=" "><br>
+  <label for="food">Food order:</label><br>
+   <input type="text"  name="food" value=" "><br>
+   <label for="Tcost">Ticket Cost:</label><br>
+   <input type="text"  name="Tcost" value=" "><br>
+   <label for="PMethod">PAYMENT METHOD:</label></br>
+    <input type="text"  name="PMethod" value=" "><br>
+   <label for="CED">CARD EXPIRY DATE:</label><br>
+   <input type="text"  name="CED" value=" "><br><br>
+  <input type="submit" value="Submit">
+</form>  
+<center>
+</hr>
 </body>
 
 <hr>
-
-<header style="float: right; color: white">
+<header style="float: right;">
 <h2>MOVIE PRICES</h2>                   
 <p><b>ALL ACTION MOVIES COST P55.00 PER MOVIE</b></p>
 <p><b>ALL HORROR MOVIES COST P45.00 PER MOVIE</b></p>
@@ -158,7 +150,7 @@ It is a flexible website,it can be reached on smartphones and it is ad free.<br>
  <p><b>RICE AND CHICKEN COST P150.00</b></p>
  <p><b>DRINKS COST P35.00</b></p>
  </header>
-
+ 
 <footer>
 <ul>
 <li>
@@ -172,6 +164,6 @@ It is a flexible website,it can be reached on smartphones and it is ad free.<br>
    <p style="color: red;">Call and Book us on:<br>+267 76285635<br>+267 35156<br>+267 32985<br>We are number one providing cinema</br></p>
    </li>
    </ul>
-   </footer>
-</hr>   
+   </footer>  
+   </hr>
 </html>
